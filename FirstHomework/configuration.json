@@ -1,0 +1,6 @@
+{
+  "vfs": "test.tar",
+  "log": "log.json",
+  "start": "start.sh",
+  "test_log": "log_test.json"
+}
