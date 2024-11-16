@@ -1,0 +1,6 @@
+<config>
+    <visualizer_path>C:\Users\mos_g\AppData\Roaming\npm\mmdc</visualizer_path>
+    <package_name>pandas</package_name>
+    <max_depth>4</max_depth>
+    <repository_url>https://pypi.org/project/requests/</repository_url>
+</config>
