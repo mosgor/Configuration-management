@@ -1,0 +1,15 @@
+(*
+Тестовый пример конфигурационного языка
+*)
+
+
+set test2 = -1;
+set test4 = [innerTest1 => 25, innerTest2 => 35];
+set test1 = "A";
+
+set test3 = { 1. 25. 35. };
+
+
+set test5 = @(+ test2 1);
+set test6 = @(abs test2);
+set test7 = @(ord test1);

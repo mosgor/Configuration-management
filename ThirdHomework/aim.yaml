@@ -1,0 +1,38 @@
+# (*
+# Тестовый пример конфигурационного языка
+# *)
+
+# set test1 = "A";
+# set test2 = -1;
+# set test3 = { 1. 25. 35. };
+# set test4 = [
+#                innerTest1 => 25,
+#                innerTest2 => 35,
+#            ];
+
+# set test5 = @(+ test2 1)
+# set test6 = @(abs test2)
+# set test7 = @(ord test1)
+
+
+
+# Тестовый пример конфигурационного языка
+test1: "A"
+test2: -1
+test3:
+  - 1
+  - 25
+  - 35
+  - - 78
+    - testInner:
+      innerVal: 5
+      anotherVal: 7
+    - 8
+  - 9
+test4:
+  innerTest1: 25
+  innerTest2: 35
+
+test5: 0
+test6: 1
+test7: 65

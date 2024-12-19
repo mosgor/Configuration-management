@@ -1,0 +1,12 @@
+test1: A
+test2: -1
+test3:
+- 1
+- 25
+- 35
+test4:
+  innerTest1: 25
+  innerTest2: 35
+test5: 0
+test6: 1
+test7: 65
